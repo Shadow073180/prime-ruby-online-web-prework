@@ -7,5 +7,6 @@ def prime?(num)
        
      break
      end
+   end
      x+=1
 end
