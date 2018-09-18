@@ -8,5 +8,5 @@ def prime?(num)
    if y/y==1 && y/1==y 
      return true
    end
-end
+ end
 end
