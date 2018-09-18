@@ -7,6 +7,10 @@ def prime?(num)
        
      break
      end
+   while x <= num / 2 
+     if num % x != 0
+       prime_flag = true 
+       
    end
      x+=1
 end
