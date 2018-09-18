@@ -3,6 +3,6 @@ def prime(range)
   number.each do 
     array.push(number)
   end
- 
+ puts array
   
 end
