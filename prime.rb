@@ -4,7 +4,7 @@ def prime?(number)
   array.each {|x| 
     if x / x == 1 && x / 1 == x
       return true 
-    else
+    elsif x /x !=
       return false 
     end}
 end
