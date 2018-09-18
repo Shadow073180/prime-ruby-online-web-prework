@@ -7,7 +7,7 @@ def prime?(num)
  array.each do|y|
    if y/y==1 && y/1==y 
      return true
-   elsif y<0 
+   elsif y<0 == 'ZeroDivisionError'
      return false
    end
  end
