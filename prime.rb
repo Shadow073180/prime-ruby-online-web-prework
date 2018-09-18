@@ -9,5 +9,15 @@ def prime?(num)
       return false
     when % 5 == 0 
       return false
+    when % 6 == 0 
+      return false
+    when % 7 == 0 
+      return false 
+    when % 8 == 0
+      return false
+    when % 9 == 0 
+      return false
+    when % 10 == 0 
+      return false
   end  
 end
