@@ -4,4 +4,4 @@ def prime?(num)
  range.each do|x|
  array.push(x)
  end
-
+end
