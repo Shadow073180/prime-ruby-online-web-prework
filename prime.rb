@@ -2,9 +2,9 @@ def prime?(number)
   array = []
   array.push(number)
   array.each {|x| 
-    if x / x == 1 && x / 1 == x
+    if x == Prime
       return true 
-    elsif x /x !=
+    elsif 
       return false 
     end}
 end
