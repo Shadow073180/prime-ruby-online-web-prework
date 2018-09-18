@@ -7,3 +7,4 @@ def prime?(num)
  array.each do|y|
  return y
 end
+end
