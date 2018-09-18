@@ -7,6 +7,8 @@ def prime?(num)
  array.each do|y|
    if y/y==1 && y/1==y 
      return true
+   elsif y/-1 == 1 
+     return false
    end
  end
 end
