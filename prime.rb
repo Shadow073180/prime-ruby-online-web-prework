@@ -19,5 +19,9 @@ def prime?(num)
       return false
     when % 10 == 0 
       return false
+    when / 1 == num
+      return true 
+    when / num == 1 
+      return true
   end  
 end
