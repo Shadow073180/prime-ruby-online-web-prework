@@ -3,10 +3,11 @@ def prime(range)
   number.each do 
     array.push(number)
   end
- for x = 0, x < array.length, x++
-  if array[x]== Math.prime
+ counter = 0 
+  if array[]== Math.prime
     return true
   else
     return false
   end
+  
 end
