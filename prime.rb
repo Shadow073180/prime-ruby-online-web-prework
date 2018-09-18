@@ -5,6 +5,8 @@ def prime?(num)
  array.push(x)
  end
  array.each do|y|
- return y
+   if y/y==1 && y/1==y 
+     return true
+   end
 end
 end
