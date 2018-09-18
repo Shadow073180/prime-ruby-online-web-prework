@@ -15,3 +15,4 @@ def prime?(num)
    y+=1
  end
 end
+end
