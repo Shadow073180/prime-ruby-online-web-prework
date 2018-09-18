@@ -1,4 +1,4 @@
 def prime?(number)
-  array = 
+  array = []
   array.push(number)
 end
